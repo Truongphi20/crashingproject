@@ -2,9 +2,12 @@ Thuật toán tìm các cách rút gọn thời gian thực hiện của dự á
 
 
 Yêu cầu: rút ngắn một lượng thời gian sao cho chi phí là nhỏ nhất
+
 ======================================
+
 Usage:
 B1: Điều chỉnh file "input_data.csv":
+
 	- Các thành phân trong bảng phân cách bằng tab.
 	- Không cần điều chỉnh tên cột
 	- Ý nghĩa tên các cột:
@@ -20,8 +23,10 @@ B2: Chạy thuật toán:
 Kết quả sẽ xuất ra trực tiếp trên terminal.  
 
 ========================================
+
 Ví dụ kết quả:
 
+```
    Tg rút Gantt     Cost              Ways
 0       0     0      0.0  0a0b0c0d0e0f0g0h
 1       1   0,2   1000.0  1a0b0c0d0e0f0g0h
@@ -34,8 +39,10 @@ Ví dụ kết quả:
 8                         1a0b0c0d0e0f1g0h
 9                         0a0b1c0d0e0f1g0h
 ..	..	..	......	............
+```
 
 Ví dụ từ hàng 1 đến hàng 3: 
+
 	+ Thời gian rút ngắn là 1 ngày (Cột 1)
 	+ Sau khi rút ngắn, đường Gantt thứ 0 và thứ 2 sẽ cùng trở thành đường Gantt (Cột 2)
 	+ Tổng chi phí tối thiểu rút ngắn là 1000 (Cột 3)
