@@ -19,7 +19,9 @@ B1: Điều chỉnh file "input_data.csv":
 		+ Cột 5: Chi phí khi rút ngắn một đơn vị dự án 
 	- Điều chỉnh các cột phù hợp với điều kiện đề bài
 B2: Chạy thuật toán:
+
 	python .\CrashTime.py
+	
 	
 Kết quả sẽ xuất ra trực tiếp trên terminal.  
 
