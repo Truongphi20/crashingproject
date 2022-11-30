@@ -5,9 +5,20 @@ Yêu cầu: rút ngắn một lượng thời gian sao cho tổng chi phí rút 
 
 # **1. Usage:**
 
-**Bước 1: Điều chỉnh file "input_data.csv":**
+**Kiểm tra cài đặt**
+	
+	python .\CrashTime.py -h
+	
+	usage: CrashTime.py [-h] [-f INPUT_FILE] [-v]
 
-	- Các thành phần trong bảng phân cách bằng tab.
+	optional arguments:
+	  -h, --help            show this help message and exit
+	  -f INPUT_FILE, --input_file INPUT_FILE
+	  -v, --version         show version
+
+**Bước 1: Tạo file input:**
+
+	- Là file csv, các thành phần trong bảng phân cách bằng tab (xem file input_example.csv).
 	- Không cần điều chỉnh tên cột
 	- Ý nghĩa tên các cột:
 		+ Cột 1: Tên các dự án
@@ -18,7 +29,7 @@ Yêu cầu: rút ngắn một lượng thời gian sao cho tổng chi phí rút 
 	- Điều chỉnh các cột phù hợp với điều kiện đề bài
 **Bước 2: Chạy thuật toán:**
 
-	python .\CrashTime.py
+	python .\CrashTime.py -f input_file
 	
 	
 Kết quả sẽ xuất ra trực tiếp trên terminal.  
@@ -28,7 +39,7 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 
 Nguồn ví dụ: [Youtube](https://www.youtube.com/watch?v=qNSTP88FHWA&t=764s)
 
-Chỉnh sửa file "input_data.csv" phù hợp với đề bài của ví dụ:
+Chạy file "input_example.csv" tương ứng với đề bài của ví dụ:
 
 	Dự án	DA trước	Tg bth	Tg rút đv	Cp đv
 	A	-	2	1	1000.0
@@ -40,7 +51,7 @@ Chỉnh sửa file "input_data.csv" phù hợp với đề bài của ví dụ:
 	G	D,E	5	3	2000.0
 	H	F,G	2	1	3000.0
 
-Chạy thuật toán bằng lệnh `python .\CrashTime.py`, thu được kết quả: 
+Chạy thuật toán bằng lệnh `python .\CrashTime.py -f .\input_example.csv`, thu được kết quả: 
 
 ```
 ['Start,A,C,E,G,H,End', 'Start,A,C,F,H,End', 'Start,B,D,G,H,End']
