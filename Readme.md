@@ -29,6 +29,8 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 
 **Ví dụ đọc kết quả:**
 
+Nguồn ví dụ: [Youtube](https://www.youtube.com/watch?v=qNSTP88FHWA&t=764s)
+
 ```
 ['Start,A,C,E,G,H,End', 'Start,A,C,F,H,End', 'Start,B,D,G,H,End']
    Tg rút Gantt     Cost              Ways
