@@ -28,6 +28,7 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 **Ví dụ kết quả:**
 
 ```
+['Start,A,C,E,G,H,End', 'Start,A,C,F,H,End', 'Start,B,D,G,H,End']
    Tg rút Gantt     Cost              Ways
 0       0     0      0.0  0a0b0c0d0e0f0g0h
 1       1   0,2   1000.0  1a0b0c0d0e0f0g0h
@@ -45,9 +46,9 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 Ví dụ từ hàng 1 đến hàng 3: 
 
 	+ Thời gian rút ngắn là 1 ngày (Cột 1)
-	+ Sau khi rút ngắn, đường Gantt thứ 0 và thứ 2 sẽ cùng trở thành đường Gantt (Cột 2)
+	+ Sau khi rút ngắn, đường Gantt thứ 0 ('Start,A,C,E,G,H,End') và thứ 2 ('Start,B,D,G,H,End') sẽ cùng trở thành đường Gantt (Cột 2)
 	+ Tổng chi phí tối thiểu rút ngắn là 1000 (Cột 3)
-	+ Có 3 cách rút gọn: 
+	+ Có 3 cách rút gọn: (Cột 4)
 		- 1a0b0c0d0e0f0g0h: giảm dự án A 1 đơn vị thời gian
 		- 0a0b1c0d0e0f0g0h: giảm dự án C 1 đơn vị thời gian
 		- 0a0b0c0d1e0f0g0h: giảm dự án E 1 đơn vị thời gian 
