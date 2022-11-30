@@ -56,7 +56,7 @@ def pathsf(tenda,pretenda): # Xac dinh cac con duong
 	G = nx.DiGraph()
 	G.add_edges_from(vector)
 	paths = all_paths(G)
-	#print(paths)
+	print(lisotoString(paths))
 	return paths
 
 def Tim_gantt(paths,tenda,tg1): # Rà thời gian thực hiện dự án của các con đường 
