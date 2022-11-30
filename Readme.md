@@ -27,7 +27,7 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 
 ========================================
 
-**Đọc kết quả:**
+**Ví dụ đọc kết quả:**
 
 ```
 ['Start,A,C,E,G,H,End', 'Start,A,C,F,H,End', 'Start,B,D,G,H,End']
