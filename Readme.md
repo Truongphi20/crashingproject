@@ -5,7 +5,8 @@ Yêu cầu: rút ngắn một lượng thời gian sao cho chi phí là nhỏ nh
 
 ======================================
 
-Usage:
+**Usage:**
+
 B1: Điều chỉnh file "input_data.csv":
 
 	- Các thành phân trong bảng phân cách bằng tab.
@@ -24,7 +25,7 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 
 ========================================
 
-Ví dụ kết quả:
+**Ví dụ kết quả:**
 
 ```
    Tg rút Gantt     Cost              Ways
