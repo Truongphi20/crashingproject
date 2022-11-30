@@ -70,6 +70,6 @@ Ví dụ từ hàng 1 đến hàng 3 của bảng:
 		- 0a0b1c0d0e0f0g0h: giảm dự án C 1 đơn vị thời gian
 		- 0a0b0c0d1e0f0g0h: giảm dự án E 1 đơn vị thời gian 
 		etc: 0a0b1c1d1e0f1g0h: giảm dự án C 1 đơn vị, dự án D 1 đơn vị, dự án E 1 đv, dự án G 1 đv	
-	&#8594; Tức là để giảm 1 ngày thực hiện dự án, 3 cách giảm trên sẽ là cách giảm tối ưu nhất để chi phí giảm là nhỏ nhất (1000)  
+&#8594; Tức là để giảm 1 ngày thực hiện dự án, 3 cách giảm trên sẽ là cách giảm tối ưu nhất để chi phí giảm là nhỏ nhất (1000)  
 
 Tương tự với các mốc thời gian rút ngắn khác.
