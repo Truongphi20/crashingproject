@@ -3,6 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import argparse
 
 def tim_vector(tenda,pretenda): # Tim cac vector tren giang do
 	Start_point = [i for i in tenda if pretenda[tenda.index(i)] == '-'] #Tìm start point
@@ -413,7 +414,16 @@ def CrashTime(tenda,pretenda,tg1,tg_dv,cost_dv): #Ham tong quat
 #tg_dv = [1, 2, 1, 1, 2, 1, 3, 1] # Thoi gian rut ngan don vi
 #cost_dv = [1000.0, 2000.0, 1000.0, 1000.0, 1000.0, 500.0, 2000.0, 3000.0] # Chi phi rut ngan don vi
 
-df = pd.read_csv('input_data.csv',sep="\t")
+# Initialize parser
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-f", "--input_file")
+parser.add_argument("-v",'--version', action='version', version='%(prog)s 1.0',help = 'show version')
+
+# Read arguments from command line
+args = parser.parse_args()
+
+df = pd.read_csv(args.input_file,sep="\t")
 #print(df)
 
 tenda = list(df.iloc[:,0])
