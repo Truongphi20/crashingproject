@@ -5,20 +5,20 @@ Yêu cầu: rút ngắn một lượng thời gian sao cho tổng chi phí rút 
 
 ======================================
 
-**Usage:**
+# **Usage:**
 
-B1: Điều chỉnh file "input_data.csv":
+**Bước 1: Điều chỉnh file "input_data.csv":**
 
-	- Các thành phân trong bảng phân cách bằng tab.
+	- Các thành phần trong bảng phân cách bằng tab.
 	- Không cần điều chỉnh tên cột
 	- Ý nghĩa tên các cột:
 		+ Cột 1: Tên các dự án
 		+ Cột 2: Các dự án liền trước dự án bên cột 1
 		+ Cột 3: Thời gian hoàn thành dự án không rút ngắn tiến độ
 		+ Cột 4: Thời gian có thể rút ngắn tối đa của dự án đó
-		+ Cột 5: Chi phí khi rút ngắn một đơn vị dự án 
+		+ Cột 5: Chi phí khi rút ngắn một đơn vị thời gian dự án ở cột 1 
 	- Điều chỉnh các cột phù hợp với điều kiện đề bài
-B2: Chạy thuật toán:
+**Bước 2: Chạy thuật toán:**
 
 	python .\CrashTime.py
 	
@@ -27,7 +27,7 @@ Kết quả sẽ xuất ra trực tiếp trên terminal.
 
 ========================================
 
-**Ví dụ đọc kết quả:**
+# **Ví dụ đọc kết quả:**
 
 Nguồn ví dụ: [Youtube](https://www.youtube.com/watch?v=qNSTP88FHWA&t=764s)
 
