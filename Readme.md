@@ -1,4 +1,4 @@
-Thuật toán tìm các cách rút ngắn thời gian thực hiện của dự án.
+Thuật toán giải bài toán tìm rút ngắn thời gian thực hiện của dự án.
 =============
 
 Yêu cầu: rút ngắn một lượng thời gian sao cho tổng chi phí rút ngắn là nhỏ nhất
