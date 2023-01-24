@@ -84,3 +84,15 @@ Ví dụ từ hàng 1 đến hàng 3 của bảng:
 &#8594; Tức là để giảm 1 ngày thực hiện dự án, 3 cách giảm trên sẽ là cách giảm tối ưu nhất để chi phí giảm là nhỏ nhất (1000)  
 
 Tương tự với các mốc thời gian rút ngắn khác.
+
+# **3. Quy trình thuật toán**
+Thuật toán dựa trên việc [giải hệ bất phương trình](https://github.com/Truongphi20/inequaltion) để tìm ra tất cả trường hợp rút ngắn có thể xảy ra khi từng con đường trong sơ đồ mạng sau khi rút ngắn trở thành đường Gantt. Sau đó lọc các các điểm sao cho chi phí thấp nhất ở các mốc thời gian và xuất ra kết quả.
+
+_Quy trình:_
+- Xác định tất cả con đường trong sơ đồ mạng
+- Xét từng trường hợp sau khi rút ngắn con đường đó trở thành đường Gantt. Các điều kiện để thiết lập bất phương trình như sau:
+	>+ Thời gian rút ngắn phải nằm trong phạm vị cho phép (đề cho)
+	>+ Thời gian hoàn thành sau rút ngắn của các đường không Gantt phải bé hơn hoặc bằng đường Gantt
+	>+ Thời gian rút ngắn phải lớn hơn hoặc bằng 0
+- Lọc ra các điểm tối ưu ở từng trường hợp với chi phí rút ngắn là tối thiểu.
+- Tổng hợp dữ kiện của các trường hợp và xuất ra kết quả.
