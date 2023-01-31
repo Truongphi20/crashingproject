@@ -3,6 +3,8 @@ Thuật toán giải bài toán tìm thời gian rút ngắn thực hiện của
 
 Yêu cầu: rút ngắn một lượng thời gian sao cho tổng chi phí rút ngắn là nhỏ nhất
 
+[Video hướng dẫn](https://www.youtube.com/watch?v=YFqkeHcl5jA&t=13s)
+
 # **1. Usage:**
 
 **Kiểm tra cài đặt**
