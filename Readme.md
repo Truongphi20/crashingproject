@@ -98,3 +98,8 @@ _Quy trình:_
 	>+ Thời gian rút ngắn phải lớn hơn hoặc bằng 0
 - Lọc ra các điểm tối ưu ở từng trường hợp với chi phí rút ngắn là tối thiểu.
 - Tổng hợp dữ kiện của các trường hợp và xuất ra kết quả.
+
+# 4. Một số thuật toán khác trong Quản lý dự án
+
+- [Thuật toán giải bài toán tìm xác suất hoàn thành dự án](https://github.com/Truongphi20/PredicTimePro)
+- [Tìm các thông số của phương pháp Giá trị làm ra](https://github.com/Truongphi20/earnvalue)
